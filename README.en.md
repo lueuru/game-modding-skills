@@ -174,6 +174,10 @@ popups or replacing credits must happen under your right to modify that app;
 
 - **[agent-engineering-skills](https://github.com/lueuru/agent-engineering-skills)** — AI Agent engineering practices — acceptance criteria that resist false passes, GitHub repo beautification, Windows cleanup audit, DSH troubleshooting and session review
 
+## Star the project
+
+If these skills saved you time, a ⭐ helps other modders of legacy games find this methodology.
+
 ## License
 
 [MIT](./LICENSE) — free to use, modify, and redistribute; keep the copyright notice.

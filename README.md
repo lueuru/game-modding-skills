@@ -148,6 +148,10 @@ APK 能否正常运行。包含**资源可行性预检**（内存 / 磁盘 / 虚
 
 - **[agent-engineering-skills](https://github.com/lueuru/agent-engineering-skills)** —— AI Agent 工程实践 —— 验收判据防假通过、仓库主页美化、Windows 清理审计、DSH 排障与会话复盘
 
+## 支持一下
+
+如果这套技能帮你省下了时间，欢迎点个 ⭐ Star——它能让更多改造老游戏的人看到这套方法。
+
 ## 许可证
 
 [MIT](./LICENSE) —— 自由使用、修改、再分发，保留版权声明即可。
