@@ -15,6 +15,8 @@
 [![Last commit](https://img.shields.io/github/last-commit/lueuru/game-modding-skills?style=flat-square)](https://github.com/lueuru/game-modding-skills/commits)
 [![Stars](https://img.shields.io/github/stars/lueuru/game-modding-skills?style=flat-square)](https://github.com/lueuru/game-modding-skills/stargazers)
 
+![cover](./assets/cover.png)
+
 **[中文](#) · [English](./README.en.md)**
 
 </div>
@@ -143,6 +145,16 @@ APK 能否正常运行。包含**资源可行性预检**（内存 / 磁盘 / 虚
 
 这些技能用于**你自己拥有或已获授权修改**的应用。去掉渠道 SDK 弹窗、替换署名，
 都应在你有权修改该应用的前提下进行；**不要用它去篡改他人应用后分发**。
+
+## 生态定位
+
+这个赛道最近有了同行者：[universal-modder](https://github.com/rehan-remade/universal-modder)
+让 Claude Code 改造你拥有的 PC 游戏（侦察、逆向、资产生成、游戏内测试）。它很强，适合通用场景。
+
+本仓库的分工恰好互补：目标是一批**现代工具链碰不到的老游戏**——
+Unity 4.x～5.x（Mono / .NET 3.5）时代的安卓包。这些游戏的难点不在"读懂游戏"，
+而在 `#US` 字符串堆、AXML 字符串池、BMFont 图集这类**二进制格式本身**，
+以及"改错一个字节就启动即崩"的约束。六个技能就是围绕这些约束的。
 
 ## 相关仓库
 
