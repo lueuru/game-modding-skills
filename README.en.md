@@ -16,6 +16,8 @@ complete workflow of modding an old Unity Android game.
 [![Last commit](https://img.shields.io/github/last-commit/lueuru/game-modding-skills?style=flat-square)](https://github.com/lueuru/game-modding-skills/commits)
 [![Stars](https://img.shields.io/github/stars/lueuru/game-modding-skills?style=flat-square)](https://github.com/lueuru/game-modding-skills/stargazers)
 
+![cover](./assets/cover.png)
+
 **[English](#) · [中文](./README.md)**
 
 </div>
@@ -169,6 +171,19 @@ unattended verification for **Unity 4.x ~ 5.x (Mono / .NET 3.5) Android games**.
 These skills are for apps **you own or are authorized to modify**. Stripping channel SDK
 popups or replacing credits must happen under your right to modify that app;
 **do not use them to tamper with and redistribute someone else's app**.
+
+## Where this fits
+
+This niche recently gained company: [universal-modder](https://github.com/rehan-remade/universal-modder)
+points Claude Code at PC games you own (recon, reverse engineering, asset generation, in-game
+testing). It's strong — and built for the general case.
+
+This repository covers the complementary half: a generation of **old games that modern
+toolchains cannot touch** — Android packages from the Unity 4.x–5.x (Mono / .NET 3.5) era.
+The hard parts there aren't "understanding the game" but the **binary formats themselves** —
+the `#US` string heap, the AXML string pool, BMFont atlases — plus the constraint that one
+wrong byte means instant crash on launch. The six skills are built around exactly those
+constraints.
 
 ## Related repositories
 
